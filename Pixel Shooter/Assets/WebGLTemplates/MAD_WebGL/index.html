@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- SEO Meta Tags -->
+    <title>{{{ PRODUCT_NAME }}} | Unity WebGL Game</title>
+    <meta name="description" content="{{{ PRODUCT_DESCRIPTION }}}">
+    <meta name="keywords" content="unity, webgl, game, {{{ PRODUCT_NAME }}}">
+    <meta name="author" content="{{{ COMPANY_NAME }}}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{{ PRODUCT_NAME }}}">
+    <meta property="og:description" content="{{{ PRODUCT_DESCRIPTION }}}">
+    <meta property="og:image" content="thumbnail.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{{ PRODUCT_NAME }}}">
+    <meta name="twitter:description" content="{{{ PRODUCT_DESCRIPTION }}}">
+    <meta name="twitter:image" content="thumbnail.png">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="TemplateData/logo_mad.png">
+    <link rel="icon" type="image/png" href="TemplateData/logo_mad.png">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="TemplateData/style.css" as="style">
+    <link rel="preload" href="TemplateData/logo_mad.png" as="image">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#231F20">
+</head>
+<body>
+    <!-- Back Button -->
+    <a href="https://hoatv2211.github.io/" class="back-button">
+        ← Back to Portfolio
+    </a>
+
+    <div id="unity-container">
+        <canvas id="unity-canvas" width={{{ WIDTH }}} height={{{ HEIGHT }}} tabindex="-1"></canvas>
+
+        <div id="unity-loading-bar">
+            <div class="box__full">
+                <div class="progress__wrap">
+                    <div id="unity-progress-bar-empty">
+                        <div class="box__full">
+                            <div id="unity-progress-bar-full"></div>
+                        </div>
+                    </div>
+                    <div class="loading-spinner">Loading...</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="unity-warning"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

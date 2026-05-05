@@ -1,0 +1,19 @@
+{
+    "name": "Ragendom.Defines.Editor",
+    "rootNamespace": "Ragendom",
+    "references": [
+        "Ragendom.Defines"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WebGL"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
