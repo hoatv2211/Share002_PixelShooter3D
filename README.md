@@ -1,5 +1,7 @@
 # Pixel Shooter 3D
 
+**[Play Online](https://hoatv2211.github.io/Share002_PixelShooter3D/)**
+
 A Unity 6+ game development template for building pixel-style 3D shooter games. This asset is designed as a **template and starting point** — it provides the core systems, architecture, and tools needed to build your own game. Customize, extend, and modify it to create something unique.
 
 ## Requirements
@@ -140,11 +142,6 @@ All UI prefabs are in `Prefabs/UI/` and use TextMesh Pro for text rendering.
 | JSON import fails | Verify JSON matches the expected structure |
 | Level overwrite warning | Use a unique level name to avoid losing previous work |
 
-## Play the Game
-
-**[Play Online](https://hoatv2211.github.io/Share002_PixelShooter3D/)**
-
 ## Support
 
-- This asset was built with the **HyperCasual Game Engine** — [check it out on Asset Store](https://assetstore.unity.com/packages/templates/packs/hypercasual-game-engine-mobile-puzzle-templates-136631)
-- Questions? Contact support via the Asset Store page
+- This asset was built with the **HyperCasual Game Engine** 
